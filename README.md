@@ -17,7 +17,7 @@ This repository contains a TensorFlow-based deep learning project aimed at class
 
 ## Dataset Information
 
-- **Source**: Dicoding Academy
+- **Source**: [Dicoding Academy](https://github.com/dicodingacademy/assets/releases/download/release/rockpaperscissors.zip)
 - **Contents**: Hand gesture images representing Rock, Paper, and Scissors.
 - **Split**:
   - Training set: 1,312 images
@@ -36,13 +36,3 @@ This repository contains a TensorFlow-based deep learning project aimed at class
 - **Learning Rate Scheduling**: Applied to optimize convergence rates.
 - **Early Stopping and Model Checkpointing**: Utilized to halt training at the optimal point and save the best model iteration, respectively.
 - **Comprehensive Evaluation**: Both training and validation metrics are extensively monitored to gauge model performance.
-
-## Getting Started
-
-To replicate this project or use the model, follow these steps:
-
-1. **Clone the Repository**: Download the project files to your local machine.
-2. **Install Dependencies**: Ensure TensorFlow 2.15.0 and other required libraries are installed. Refer to `requirements.txt` for a complete list.
-3. **Prepare the Data**: Download the dataset from the provided Dicoding Academy link and organize it according to the project's structure.
-4. **Train the Model**: Run the training script or notebook to start training the model on your dataset.
-5. **Evaluate and Test**: Use the provided evaluation scripts to test the model's performance on new data.
